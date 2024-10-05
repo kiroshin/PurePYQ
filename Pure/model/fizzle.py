@@ -23,7 +23,7 @@ class FileFizzle(Fizzle):
 
 @final
 class DBFizzle(Fizzle):
-    def __init__(self, msg="HTTP Error"):
+    def __init__(self, msg="DB Error"):
         super().__init__(msg, 0b_0100_0000)
 
     @classmethod
@@ -37,7 +37,7 @@ class DBFizzle(Fizzle):
 
 @final
 class WebFizzle(Fizzle):
-    def __init__(self, msg="HTTP Error"):
+    def __init__(self, msg="Web Error"):
         super().__init__(msg, 0b_0010_0000)
 
     @classmethod
