@@ -10,7 +10,7 @@ Python 과 Qt 를 이용해 만든 데스크톱 앱입니다. 자세한 설명�
 
 
 ### 작동 환경
-- Python 3.11 이상, PySide6.5 이상의 맥과 윈도우에서 작동합니다.
+- [Python](https://www.python.org) 3.11 이상, [PySide](https://doc.qt.io/qtforpython-6/) 6.5 이상의 맥과 윈도우에서 작동합니다.
 - [Nuitka](https://nuitka.net) 를 이용해 컴파일했습니다.
 - [Actual Installer](https://www.actualinstaller.com) 를 통해 패키징했습니다.
 
