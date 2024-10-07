@@ -21,12 +21,12 @@ Python 과 Qt 를 이용해 만든 데스크톱 앱입니다. 자세한 설명�
 * [정말 튼튼한 아키텍처](https://kiroshin.github.io/2024-07-17-pure-simple)
 * [미니멀로 구성하기](https://kiroshin.github.io/2024-07-22-hello-pure)
 
-### 윈도우용 패키징
+## 윈도우용
 - [Nuitka](https://nuitka.net) 를 이용해 컴파일했지만 [PyInstaller](https://pyinstaller.org/en/stable/usage.html) 도 가능합니다.
 - [Actual Installer](https://www.actualinstaller.com) 를 통해 패키징했습니다. [InstallForge](https://installforge.net) 보다 좋습니다.
 
 
-## 윈도우에 설치
+### 윈도우에 설치
 다운로드: https://github.com/kiroshin/PurePYQ/releases/download/0.1.0/setup_pure_win10_x64.exe
 
 윈도우 디펜더 스마트스크린을 통과하려면 마이크로소프트에 따로 제출하거나, 명성치를 쌓아야 하는 다른 절차가 필요합니다. 테스트용 앱인데 그런 것까지 하지는 않았습니다. 따라서 아래와 같이 `추가정보` 를 클릭하여 `실행` 버튼을 다시 눌러줘야 합니다. 아무래도 멀웨어 앱이 하도 많다보니 어쩔 수 없나 봅니다.
